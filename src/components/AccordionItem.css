@@ -1,0 +1,11 @@
+.panelContainer {
+    background-color: red;
+}
+
+.expand {
+    display: block;
+}
+
+.collapse {
+    display: none;
+}
