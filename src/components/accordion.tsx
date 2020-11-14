@@ -4,15 +4,12 @@ import AccordionItem from './accordionItem';
 
 const items = [
     {
-        item: "item1",
         title: "title1"
     },
     {
-        item: "item2",
         title: "title2"
     },
     {
-        item: "item3",
         title: "title3"
     }
 ];
@@ -27,7 +24,7 @@ const Accordion = () => {
         </button>
         {
             items.map((el:any, index:number)=>{
-                return <AccordionItem item={el.item} title={el.title} key={index} globalExpandProps={globalExpand} />
+                return <AccordionItem title={el.title} key={index} globalExpandProps={globalExpand} />
             })
         }
     </div>

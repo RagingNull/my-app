@@ -1,5 +1,5 @@
-.panelContainer {
-    background-color: red;
+.panelContainer > p {
+    background-color: grey;
 }
 
 .expand {
